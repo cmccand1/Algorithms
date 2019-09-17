@@ -1,7 +1,6 @@
 def linear_search(a, value):
     found = False
     i = 0
-
     while i < len(a) and not found:
         if a[i] == value:
             found = True
